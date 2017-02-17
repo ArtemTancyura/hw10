@@ -1,0 +1,332 @@
+@import "bootstrap.css";
+
+body{
+    overflow-x:  hidden;
+}
+/*navbar*/
+.glyphicon{
+    padding: 10px;
+}
+.icons{
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+.icons a{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.fb{
+    background: url('../img/facebook.png') no-repeat center;
+}
+.gp{
+    background: url('../img/gplus.png') no-repeat center;;
+}
+.tw{
+    background: url('../img/twitter.png') no-repeat center;;
+}
+.pin{
+    background: url('../img/pinterest.png') no-repeat center;;
+}
+.bh{
+    background: url('../img/behance.png') no-repeat center;;
+}
+.dr{
+    background: url('../img/idribbble.png') no-repeat center;;
+}
+.fb:hover{
+    background: #4668b3 url('../img/facebook-2.png') no-repeat center;
+}
+.gp:hover{
+    background: #de5745 url('../img/gplus-2.png') no-repeat center;;
+}
+.tw:hover{
+    background: #2fbbed url('../img/twitter-2.png') no-repeat center;;
+}
+.pin:hover{
+    background: #d94348 url('../img/pinterest-2.png') no-repeat center;;
+}
+.bh:hover{
+    background: #3079ff url('../img/behance-2.png') no-repeat center;;
+}
+.dr:hover{
+    background: #eb6397 url('../img/idribbble-2.png') no-repeat center;;
+}
+.navbar-default{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: none;
+    font-size: 15px;
+}
+.navbar-brand img{
+    padding-top: -50px;
+}
+.dropdown-menu{
+    background: #f5f7fa;
+    border: none;
+}
+
+.navbar-nav .dropdown-menu li a:hover{
+    background: #00bc9c;
+
+}
+.dropdown, .dropdown-menu{
+    text-transform: uppercase;
+}
+.dropdown{
+    color: #506a85;
+}
+.dropdown:hover{
+    background: #f5f7fa;
+}
+
+
+.form-control, .btn-default{
+    border: none;
+    box-shadow: none;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;
+    margin: 0;
+}
+
+a.menu:after, .dropdown-toggle:after {
+    content: none;
+}
+
+
+
+.slider-1{
+    background: url('../img/image-1.jpg') no-repeat center;
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 305px;
+    font-size: 24px;
+}
+ h1{
+    text-transform: uppercase;
+    font-size: 78px;
+}
+
+.get-started{
+    padding: 16px 52px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 70px;
+    display: inline-block;
+    background: #17a78b;
+    text-transform: uppercase;
+}
+.get-started:hover{
+    background: #506a85;
+    color: white;
+    text-decoration: none;
+}
+.slider-2{
+    background: url('../img/image-2.jpg') no-repeat center;
+    text-align: right;
+    color: white;
+    padding-top: 170px;
+    padding-bottom: 350px;
+    padding-right: 150px;
+    font-size: 24px;
+}
+
+.slider-3{
+    background: url('../img/image-3.jpg') no-repeat center;
+    text-align: left;
+    color: #506a85;
+    padding-top: 280px;
+    padding-bottom: 220px;
+    padding-left: 50px;
+    font-size: 24px;
+}
+.slider-3 h1{
+    color: #506a85;
+}
+.slider-4{
+    background: url('../img/image-4.jpg') no-repeat center;
+    text-align: right;
+    color: white;
+    padding-top: 170px;
+    padding-bottom: 350px;
+    padding-right: 350px;
+    font-size: 24px;
+}
+.slider-4 h1{
+    color: #506a85;
+}
+
+.row-who-we-are{
+    text-align: center;
+    font-size: 16px;
+
+}
+.center {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+
+}
+.col-md-4 {
+    padding-left: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding-right: 50px;
+    font-size: 14px;
+
+}
+.col-md-4 img{
+    position: absolute;
+    margin-top: 50px;
+    left: -30px;
+    top: 0;
+    background: white;
+}
+
+.row-first{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.row-latest-works{
+    background: #f2f5f7;
+    text-align: center;
+    font-size: 16px;
+}
+.thumbnails{
+    list-style-type: none;
+}
+.thumbnail a{
+    display: block;
+    text-align: center;
+}
+
+.thumbnail a:hover{
+    background: url('../img/hover.jpg') no-repeat center;;
+    opacity: 0.7;
+    transition: .2s linear;
+}
+.thumbnail a:hover img {
+    background: transparent;
+    visibility: hidden;
+}
+.latest-image {
+    background: #f2f5f7;
+}
+.latest-image li{
+    list-style-type: none;
+}
+.latest-image a{
+    display: block;
+    text-align: center;
+}
+
+.latest-image a:hover{
+    background: url('../img/background-latest.jpg') no-repeat center;
+    opacity: 0.7;
+}
+.latest-image a:hover img {
+    background: transparent;
+    visibility: hidden;
+}
+.work{
+    text-align: center;
+    padding: 70px;
+}
+.menu{
+    background: #2f4052;
+    color: #a3b1bf;
+    font-size: 12px;
+    padding: 50px;
+}
+.menu h4{
+    color: white;
+    text-transform: uppercase;
+}
+.menu li{
+    list-style-type: none;
+}
+.botton{
+    text-decoration: none;
+    position: relative;
+}
+.menu a:hover {
+    text-decoration: none;
+}
+.botton:after {
+    content: '';
+    background: url("../img/icon-right.png");
+    width: 10px;
+    height: 8px;
+    position: absolute;
+    right: -20px;
+    bottom: 2px;
+}
+.menu p{
+    padding-top: 20px;
+}
+.latest-work{
+    width: 255px;
+    height: 175px;
+}
+
+/*.latest-work a{
+    display: block;
+}
+
+.latest-work a:hover{
+    background: url('../img/hover-3.jpg') no-repeat;
+}
+.latest-work a:hover img {
+    background: transparent;
+    visibility: hidden;
+} /*я не можу зрозуміти чому воно при ховері будується в вертикальну лінію */
+
+#email{
+    padding-right: 70px;
+    opacity: 0.7;
+    background-color: #4e5c6c;
+    color: white;
+}
+.btn-success{
+    background-color: #00bc9c;
+    position: relative;
+    bottom: 30px;
+    left: 165px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+#email:hover{
+    background-color: #596675;
+}
+.btn-success:hover{
+    background-color: #17a78b;
+}
+
+footer{
+    background: #283645;
+    padding: 20px;
+    padding-left: 120px;
+}
+.small-menu{
+    text-align: right;
+    position: relative;
+    bottom: 18px;
+    right: 65px;
+}
+.small-menu a{
+    padding: 10px;
+    color: #0f8a7c;
+}
+.small-menu a:hover{
+    text-decoration: none;
+    color: #147971;
+}
